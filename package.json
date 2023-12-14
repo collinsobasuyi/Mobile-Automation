@@ -1,0 +1,54 @@
+{
+  "name": "ukhsa-mobile-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHSA-Internal/ukhsa-mobile-appium.git"
+  },
+  "keywords": [
+    "appium",
+    "mobile",
+    "automation"
+  ],
+  "author": "UKHSA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UKHSA-Internal/ukhsa-mobile-appium/issues"
+  },
+  "homepage": "https://github.com/UKHSA-Internal/ukhsa-mobile-appium#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/register": "^7.22.15",
+    "@wdio/allure-reporter": "^8.24.0",
+    "@wdio/appium-service": "^8.20.3",
+    "@wdio/browserstack-service": "^8.23.0",
+    "@wdio/cli": "^8.20.3",
+    "@wdio/local-runner": "^8.20.3",
+    "@wdio/mocha-framework": "^8.20.3",
+    "@wdio/spec-reporter": "^8.20.0",
+    "allure-commandline": "^2.24.1",
+    "appium-chromium-driver": "^1.2.48",
+    "appium-geckodriver": "^1.2.9",
+    "appium-uiautomator2-driver": "^2.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-wdio": "^8.20.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@axe-core/webdriverjs": "^4.8.1",
+    "appium": "^2.2.1",
+    "appium-webdriveragent": "^5.15.2",
+    "appium-xcuitest-driver": "^5.8.2",
+    "chromedriver": "^119.0.1",
+    "dotenv": "^16.3.1"
+  }
+}

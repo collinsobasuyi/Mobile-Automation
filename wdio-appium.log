@@ -1,0 +1,700 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"ios","appium:platformVersion":"16.2","appium:deviceName":"iPhone 14","appium:automationName":"XCUITest","appium:app":"/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"ios","appium:platformVersion":"16.2","appium:deviceName":"iPhone 14","appium:automationName":"XCUITest","appium:app":"/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app"}}[39m
+[38;5;16m[AppiumDriver@df64][0m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"ios","appium:platformVersion":"16.2","appium:deviceName":"iPhone 14","appium:automationName":"XCUITest","appium:app":"/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app"},null,{"alwaysMatch":{"appium:platformName":"ios","appium:platformVersion":"16.2","appium:deviceName":"iPhone 14","appium:automationName":"XCUITest","appium:app":"/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@df64][0m Event 'newSessionRequested' logged at 1701166474447 (10:14:34 GMT+0000 (Greenwich Mean Time))
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/collinsobasuyi/Documents/mobile-appium/node_modules/appium-xcuitest-driver
+[35m[Appium][39m Requiring driver at /Users/collinsobasuyi/Documents/mobile-appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@df64][0m Appium v2.2.1 creating new XCUITestDriver (v5.8.2) session
+[38;5;16m[AppiumDriver@df64][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@df64][0m Appium's BaseDriver version is 9.4.1
+[38;5;16m[AppiumDriver@df64][0m XCUITestDriver's BaseDriver version is 9.4.1
+[38;5;16m[AppiumDriver@df64][0m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;48m[XCUITestDriver@29a3][0m Creating session with W3C capabilities: {
+[38;5;48m[XCUITestDriver@29a3][0m   "alwaysMatch": {
+[38;5;48m[XCUITestDriver@29a3][0m     "platformName": "ios",
+[38;5;48m[XCUITestDriver@29a3][0m     "appium:platformVersion": "16.2",
+[38;5;48m[XCUITestDriver@29a3][0m     "appium:deviceName": "iPhone 14",
+[38;5;48m[XCUITestDriver@29a3][0m     "appium:automationName": "XCUITest",
+[38;5;48m[XCUITestDriver@29a3][0m     "appium:app": "/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app"
+[38;5;48m[XCUITestDriver@29a3][0m   },
+[38;5;48m[XCUITestDriver@29a3][0m   "firstMatch": [
+[38;5;48m[XCUITestDriver@29a3][0m     {}
+[38;5;48m[XCUITestDriver@29a3][0m   ]
+[38;5;48m[XCUITestDriver@29a3][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Session created with session id: 5fa4a763-7a1f-48ec-bb78-8b1768189c45
+[38;5;64m[XCUITest][0m Current user: 'collinsobasuyi'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m iOS SDK Version set to '16.2'
+[38;5;64m[XCUITest][0m Looking for an existing Simulator with platformName: iOS, platformVersion: 16.2, deviceName: iPhone 14
+[38;5;80m[iOSSim][0m Constructing iOS simulator for Xcode version 14.2 with udid '721549D0-039A-4368-B405-7BBE019F75A0'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Determining device to run tests on: udid: '721549D0-039A-4368-B405-7BBE019F75A0', real device: false
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'xcodeDetailsRetrieved' logged at 1701166474793 (10:14:34 GMT+0000 (Greenwich Mean Time))
+[38;5;32m[BaseDriver][0m Using local app '/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'appConfigured' logged at 1701166474800 (10:14:34 GMT+0000 (Greenwich Mean Time))
+[38;5;64m[XCUITest][0m Checking whether app '/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app' is actually present on file system
+[38;5;64m[XCUITest][0m App is present
+[38;5;64m[XCUITest][0m Getting bundle ID from app '/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app': 'org.wdioNativeDemoApp'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'resetStarted' logged at 1701166474803 (10:14:34 GMT+0000 (Greenwich Mean Time))
+[38;5;64m[XCUITest][0m Not scrubbing third party app in anticipation of uninstall
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'resetComplete' logged at 1701166475038 (10:14:35 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Using WDA path: '/Users/collinsobasuyi/Documents/mobile-appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Using WDA agent: '/Users/collinsobasuyi/Documents/mobile-appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;96m[IOSSimulatorLog][0m Starting log capture for iOS Simulator with udid '721549D0-039A-4368-B405-7BBE019F75A0' using simctl
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'logCaptureStarted' logged at 1701166475593 (10:14:35 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Setting up simulator
+[38;5;80m[iOSSim][0m Setting preferences of 721549D0-039A-4368-B405-7BBE019F75A0 Simulator to {"ConnectHardwareKeyboard":false}
+[38;5;80m[iOSSim][0m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[38;5;80m[iOSSim][0m Updated 721549D0-039A-4368-B405-7BBE019F75A0 Simulator preferences at '/Users/collinsobasuyi/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"721549D0-039A-4368-B405-7BBE019F75A0":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"19A7AC8F-FA0E-4291-B4C4-436F2080869F":{"WindowCenter":"{1723.5, 334}","WindowScale":1.0855855855855856},"BCC2CE59-36A9-423C-85D6-42B6D40A87E5":{"WindowCenter":"{188, 531}","WindowScale":0.6836283185840708}},"SimulatorWindowRotationAngle":0}}}
+[38;5;80m[iOSSim][0m Got Simulator UI client PID: 86946
+[38;5;80m[iOSSim][0m Both Simulator with UDID '721549D0-039A-4368-B405-7BBE019F75A0' and the UI client are currently running
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'simStarted' logged at 1701166476322 (10:14:36 GMT+0000 (Greenwich Mean Time))
+[38;5;64m[XCUITest][0m Verifying application platform
+[38;5;64m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m App 'org.wdioNativeDemoApp' is already installed
+[38;5;64m[XCUITest][0m Reset requested. Removing app with id 'org.wdioNativeDemoApp' from the device
+[38;5;64m[XCUITest][0m Installing '/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app' on Simulator with UUID '721549D0-039A-4368-B405-7BBE019F75A0'...
+[38;5;64m[XCUITest][0m The app has been installed successfully.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'appInstalled' logged at 1701166478106 (10:14:38 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;112m[DevCon Factory][0m Requesting connection for device 721549D0-039A-4368-B405-7BBE019F75A0 on local port 8100
+[38;5;112m[DevCon Factory][0m Cached connections count: 0
+[38;5;112m[DevCon Factory][0m Successfully requested the connection for 721549D0-039A-4368-B405-7BBE019F75A0:8100
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[38;5;128m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[38;5;128m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[38;5;128m[WD Proxy][0m Got response with status 200: {"value":{"build":{"upgradedAt":"1699972063122","time":"Nov 24 2023 13:53:23","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"device":"iphone","ios":{"simulatorVersion":"16.2","ip":"192.168.68.101"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"011587F6-C8F9-4944-B8F0-39135A54A47C"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Upgrade timestamp of the currently bundled WDA: 1699972063122
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Upgrade timestamp of the WDA on the device: 1699972063122
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Trying to start WebDriverAgent 2 times with 10000ms interval
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'wdaStartAttempted' logged at 1701166478340 (10:14:38 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[38;5;128m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[38;5;128m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[38;5;128m[WD Proxy][0m Got response with status 200: {"value":{"build":{"upgradedAt":"1699972063122","time":"Nov 24 2023 13:53:23","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.2"},"device":"iphone","ios":{"simulatorVersion":"16.2","ip":"192.168.68.101"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"011587F6-C8F9-4944-B8F0-39135A54A47C"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'wdaSessionAttempted' logged at 1701166478345 (10:14:38 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Sending createSession command to WDA
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/session' to command name 'createSession'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.wdioNativeDemoApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Parsed BUILD_DIR configuration value: '/Users/collinsobasuyi/Library/Developer/Xcode/DerivedData/WebDriverAgent-eavuoncmgbutktgvixqhjphqjjmd/Build/Products'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got derived data root: '/Users/collinsobasuyi/Library/Developer/Xcode/DerivedData/WebDriverAgent-eavuoncmgbutktgvixqhjphqjjmd'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":{"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89","capabilities":{"sdkVersion":"16.2","device":"iphone"}},"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'wdaSessionStarted' logged at 1701166480519 (10:14:40 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Event 'wdaStarted' logged at 1701166480519 (10:14:40 GMT+0000 (Greenwich Mean Time))
+[38;5;32m[BaseDriver][0m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[38;5;32m[BaseDriver][0m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[38;5;16m[AppiumDriver@df64][0m New XCUITestDriver session created successfully, session 5fa4a763-7a1f-48ec-bb78-8b1768189c45 added to master session list
+[38;5;16m[AppiumDriver@df64][0m Event 'newSessionStarted' logged at 1701166480521 (10:14:40 GMT+0000 (Greenwich Mean Time))
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Cached the protocol value 'W3C' for the new session 5fa4a763-7a1f-48ec-bb78-8b1768189c45
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","platformVersion":"16.2","deviceName":"iPhone 14","automationName":"XCUITest","app":"/Users/collinsobasuyi/Documents/mobile-appium/app/ios/wdioNativeDemoApp.app","udid":"721549D0-039A-4368-B405-7BBE019F75A0"}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m6081 ms - 504[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Webview"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Webview","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element] with body: {"using":"accessibility id","value":"Webview"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":{"ELEMENT":"14000000-0000-0000-C654-000000000000","element-6066-11e4-a52e-4f735466cecf":"14000000-0000-0000-C654-000000000000"},"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"14000000-0000-0000-C654-000000000000","ELEMENT":"14000000-0000-0000-C654-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element [39m[32m200[39m [90m158 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/14000000-0000-0000-C654-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'proxyReqRes'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/14000000-0000-0000-C654-000000000000/click' to command name 'click'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/14000000-0000-0000-C654-000000000000/click] to [POST http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element/14000000-0000-0000-C654-000000000000/click] with body: {}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":null,"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Replacing sessionId FA76BE32-4421-427B-8C16-FA00969FDC89 with 5fa4a763-7a1f-48ec-bb78-8b1768189c45
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/14000000-0000-0000-C654-000000000000/click [39m[32m200[39m [90m442 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Remote Debugger version 10.1.7
+[38;5;144m[RemoteDebugger][0m useNewSafari --> false
+[38;5;144m[RemoteDebugger][0m Checking which communication style to use (non-Safari on platform version '16.2')
+[38;5;144m[RemoteDebugger][0m Platform version equal or higher than '12.2': true
+[38;5;144m[RemoteDebugger][0m Setting communication protocol: using Target-based communication
+[38;5;144m[RemoteDebugger][0m Connecting to remote debugger through unix domain socket: '/private/tmp/com.apple.launchd.57V7KdXXJx/com.apple.webinspectord_sim.socket'
+[38;5;144m[RemoteDebugger][0m Debugger socket connected
+[38;5;144m[RemoteDebugger][0m Sending connection key request
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_reportIdentifier:' message (id: 0): 'setConnectionKey'
+[38;5;144m[RemoteDebugger][0m Sending connection key request
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_reportIdentifier:' message (id: 2): 'setConnectionKey'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 56ms
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 2ms
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m140 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m4 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m2 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m2 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m2 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m No applications currently connected.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No web frames found.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m3 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;144m[RemoteDebugger][0m Received connected automation availability state: "WIRAutomationAvailabilityAvailable"
+[38;5;144m[RemoteDebugger][0m Received connected applications list: PID:21702
+[38;5;144m[RemoteDebugger][0m Received connected driver list: {}
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "about:blank",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"","url":"about:blank","isKey":false}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No key id found. Choosing first id from page array
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m We do not appear to have window set yet, ignoring
+[38;5;144m[RemoteDebugger][0m Found app id key 'PID:21702' for bundle 'org.wdioNativeDemoApp'
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m Current applications available:
+[38;5;144m[RemoteDebugger][0m     Application: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         id: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         isProxy: false
+[38;5;144m[RemoteDebugger][0m         name: "wdioDemoApp"
+[38;5;144m[RemoteDebugger][0m         bundleId: "org.wdioNativeDemoApp"
+[38;5;144m[RemoteDebugger][0m         hostId: undefined
+[38;5;144m[RemoteDebugger][0m         isActive: true
+[38;5;144m[RemoteDebugger][0m         isAutomationEnabled: "Unknown"
+[38;5;144m[RemoteDebugger][0m         pageArray:
+[38;5;144m[RemoteDebugger][0m           - id: 3
+[38;5;144m[RemoteDebugger][0m             title: ""
+[38;5;144m[RemoteDebugger][0m             url: "about:blank"
+[38;5;144m[RemoteDebugger][0m             isKey: false
+[38;5;144m[RemoteDebugger][0m Checking for bundle identifiers: com.apple.WebKit.WebContent, process-com.apple.WebKit.WebContent, process-SafariViewService, com.apple.SafariViewService, *, org.wdioNativeDemoApp
+[38;5;144m[RemoteDebugger][0m Found app id key 'PID:21702' for bundle 'org.wdioNativeDemoApp'
+[38;5;144m[RemoteDebugger][0m Trying out the possible app ids: PID:21702 (try #1 of 20)
+[38;5;144m[RemoteDebugger][0m Attempting app 'PID:21702'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardGetListing:' message to app 'PID:21702' (id: 4): 'connectToApp'
+[38;5;144m[RemoteDebugger][0m Received response from send (id: 4): '["PID:21702",{"1":{"WIRPageIdentifierKey":1,"WIRTitleKey":"JSContext","WIRTypeKey":"WIRTypeJavaScript"},"2":{"WIRPageIdentifierKey":2,"WIRTitleKey":"JSContext","WIRTypeKey":"WIRTypeJavaScript"},"3"...'
+[38;5;144m[RemoteDebugger][0m Received page change notice for app 'PID:21702' but the listing has not changed. Ignoring.
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "about:blank",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"","url":"about:blank","isKey":false}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No key id found. Choosing first id from page array
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m We do not appear to have window set yet, ignoring
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 4ms
+[38;5;144m[RemoteDebugger][0m Current applications available:
+[38;5;144m[RemoteDebugger][0m     Application: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         id: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         isProxy: false
+[38;5;144m[RemoteDebugger][0m         name: "wdioDemoApp"
+[38;5;144m[RemoteDebugger][0m         bundleId: "org.wdioNativeDemoApp"
+[38;5;144m[RemoteDebugger][0m         hostId: undefined
+[38;5;144m[RemoteDebugger][0m         isActive: true
+[38;5;144m[RemoteDebugger][0m         isAutomationEnabled: "Unknown"
+[38;5;144m[RemoteDebugger][0m         pageArray:
+[38;5;144m[RemoteDebugger][0m           - id: 3
+[38;5;144m[RemoteDebugger][0m             title: ""
+[38;5;144m[RemoteDebugger][0m             url: "about:blank"
+[38;5;144m[RemoteDebugger][0m             isKey: false
+[38;5;144m[RemoteDebugger][0m Finally selecting app PID:21702: [{"id":3,"title":"","url":"about:blank","isKey":false}]
+[38;5;144m[RemoteDebugger][0m Selected app after 8ms
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_21702.3"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m10 ms - 42[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getContexts() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getContexts'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Getting list of available contexts
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Retrieving contexts and views
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Selecting by url: false
+[38;5;144m[RemoteDebugger][0m Selecting application
+[38;5;144m[RemoteDebugger][0m Current applications available:
+[38;5;144m[RemoteDebugger][0m     Application: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         id: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         isProxy: false
+[38;5;144m[RemoteDebugger][0m         name: "wdioDemoApp"
+[38;5;144m[RemoteDebugger][0m         bundleId: "org.wdioNativeDemoApp"
+[38;5;144m[RemoteDebugger][0m         hostId: undefined
+[38;5;144m[RemoteDebugger][0m         isActive: true
+[38;5;144m[RemoteDebugger][0m         isAutomationEnabled: "Unknown"
+[38;5;144m[RemoteDebugger][0m         pageArray:
+[38;5;144m[RemoteDebugger][0m           - id: 3
+[38;5;144m[RemoteDebugger][0m             title: ""
+[38;5;144m[RemoteDebugger][0m             url: "about:blank"
+[38;5;144m[RemoteDebugger][0m             isKey: false
+[38;5;144m[RemoteDebugger][0m Checking for bundle identifiers: com.apple.WebKit.WebContent, process-com.apple.WebKit.WebContent, process-SafariViewService, com.apple.SafariViewService, *, org.wdioNativeDemoApp
+[38;5;144m[RemoteDebugger][0m Found app id key 'PID:21702' for bundle 'org.wdioNativeDemoApp'
+[38;5;144m[RemoteDebugger][0m Trying out the possible app ids: PID:21702 (try #1 of 20)
+[38;5;144m[RemoteDebugger][0m Attempting app 'PID:21702'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardGetListing:' message to app 'PID:21702' (id: 6): 'connectToApp'
+[38;5;144m[RemoteDebugger][0m Received response from send (id: 6): '["PID:21702",{"1":{"WIRPageIdentifierKey":1,"WIRTitleKey":"JSContext","WIRTypeKey":"WIRTypeJavaScript"},"2":{"WIRPageIdentifierKey":2,"WIRTitleKey":"JSContext","WIRTypeKey":"WIRTypeJavaScript"},"3"...'
+[38;5;144m[RemoteDebugger][0m Received page change notice for app 'PID:21702' but the listing has not changed. Ignoring.
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "about:blank",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"","url":"about:blank","isKey":false}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m No key id found. Choosing first id from page array
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m We do not appear to have window set yet, ignoring
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 3ms
+[38;5;144m[RemoteDebugger][0m Current applications available:
+[38;5;144m[RemoteDebugger][0m     Application: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         id: "PID:21702"
+[38;5;144m[RemoteDebugger][0m         isProxy: false
+[38;5;144m[RemoteDebugger][0m         name: "wdioDemoApp"
+[38;5;144m[RemoteDebugger][0m         bundleId: "org.wdioNativeDemoApp"
+[38;5;144m[RemoteDebugger][0m         hostId: undefined
+[38;5;144m[RemoteDebugger][0m         isActive: true
+[38;5;144m[RemoteDebugger][0m         isAutomationEnabled: "Unknown"
+[38;5;144m[RemoteDebugger][0m         pageArray:
+[38;5;144m[RemoteDebugger][0m           - id: 3
+[38;5;144m[RemoteDebugger][0m             title: ""
+[38;5;144m[RemoteDebugger][0m             url: "about:blank"
+[38;5;144m[RemoteDebugger][0m             isKey: false
+[38;5;144m[RemoteDebugger][0m Finally selecting app PID:21702: [{"id":3,"title":"","url":"about:blank","isKey":false}]
+[38;5;144m[RemoteDebugger][0m Selected app after 6ms
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_21702.3"]
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/contexts [39m[32m200[39m [90m7 ms - 42[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/context[39m
+[38;5;0m[HTTP][0m [90m{"name":"WEBVIEW_21702.3"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.setContext() with args: ["WEBVIEW_21702.3","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'setContext'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Attempting to set context to 'WEBVIEW_21702.3' from 'NATIVE_APP'
+[38;5;144m[RemoteDebugger][0m Selecting page '3' on app 'PID:21702' and forwarding socket setup
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardIndicateWebView:' message to app 'PID:21702', page '3' (id: 8): 'indicateWebView'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardIndicateWebView:' message to app 'PID:21702', page '3' (id: 10): 'indicateWebView'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketSetup:' message to app 'PID:21702', page '3' (id: 12): 'setSenderKey'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sender key set
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3' (id: 14): 'Inspector.enable'
+[38;5;144m[RemoteDebugger][0m Target created for app 'PID:21702' and page '3': {"targetId":"page-7","type":"page"}
+[38;5;144m[RemoteDebugger][0m Handling message (id: '15')
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 3ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 16): 'Page.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 18): 'Network.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 2ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 20): 'Runtime.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 22): 'Heap.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 24): 'Debugger.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 26): 'Console.enable'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 28): 'Inspector.initialized'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 1ms
+[38;5;144m[RemoteDebugger][0m Checking document readyState
+[38;5;144m[RemoteDebugger][0m Sending javascript command: 'document.readyState;'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 30): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 30): '"complete"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 5ms
+[38;5;144m[RemoteDebugger][0m Document readyState is 'complete'
+[38;5;144m[RemoteDebugger][0m Selected page after 26ms
+[38;5;144m[RemoteDebugger][0m Starting to listen for JavaScript console
+[38;5;144m[RemoteDebugger][0m Starting to listen for network events
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.setContext() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/context [39m[32m200[39m [90m28 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 32): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 32): '"{\"status\":0,\"value\":[]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 10ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: []
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m16 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "about:blank",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3,
+[38;5;144m[RemoteDebugger][0m     "WIRConnectionIdentifierKey": "90cc3d9e-76b2-4903-a499-879fa8ec801f"
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"","url":"about:blank","isKey":true}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Checking if page needs to load
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m New page listing is same as old, doing nothing
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Redirected from 'null' to 'about:blank'
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 34): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 34): '"{\"status\":0,\"value\":[]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 6ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: []
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m9 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 36): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 36): '"{\"status\":0,\"value\":[]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 24ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: []
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m27 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 38): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 38): '"{\"status\":0,\"value\":[]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 91ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: []
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m101 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "https://webdriver.io/",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3,
+[38;5;144m[RemoteDebugger][0m     "WIRConnectionIdentifierKey": "90cc3d9e-76b2-4903-a499-879fa8ec801f"
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO","url":"https://webdriver.io/","isKey":true}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Checking if page needs to load
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m New page listing is same as old, doing nothing
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Redirected from 'about:blank' to 'https://webdriver.io/'
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 40): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 40): '"{\"status\":0,\"value\":[]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 41ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: []
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: []
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m44 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElements() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElements'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_elements' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_elements' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 42): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 42): '"{\"status\":0,\"value\":[{\"ELEMENT\":\":wdc:1701166486913\"}]}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 169ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1701166486913"}]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":":wdc:1701166486913","ELEMENT":":wdc:1701166486913"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/elements [39m[32m200[39m [90m179 ms - 103[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":".hero__subtitle"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElement() with args: ["css selector",".hero__subtitle","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;144m[RemoteDebugger][0m Executing atom 'find_element_fragment' with 'args=["css selector",".hero__subtitle",null]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'find_element_fragment' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var ba=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 44): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 44): '"{\"status\":0,\"value\":{\"ELEMENT\":\":wdc:1701166486913\"}}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 336ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'find_element_fragment' execution: {"ELEMENT":":wdc:1701166486913"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":":wdc:1701166486913","ELEMENT":":wdc:1701166486913"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element [39m[32m200[39m [90m349 ms - 101[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/%3Awdc%3A1701166486913/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.getText() with args: [":wdc:1701166486913","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'getText'
+[38;5;144m[RemoteDebugger][0m Executing atom 'get_text' with 'args=[{"ELEMENT":":wdc:1701166486913"}]; frames='
+[38;5;144m[RemoteDebugger][0m Executing 'get_text' atom in default context
+[38;5;144m[RemoteDebugger][0m Sending javascript command: '(function(){return (function(){var aa=this||sel...'
+[38;5;144m[RemoteDebugger][0m Sending '_rpc_forwardSocketData:' message to app 'PID:21702', page '3', target 'page-7' (id: 46): 'Runtime.evaluate'
+[38;5;144m[RemoteDebugger][0m Web Inspector garbage collected
+[38;5;144m[RemoteDebugger][0m Received data response from send (id: 46): '"{\"status\":0,\"value\":\"Next-gen browser and mobile automation test framework for Node.js\"}"'
+[38;5;144m[RemoteDebugger][0m Sending to Web Inspector took 239ms
+[38;5;144m[RemoteDebugger][0m Received result for atom 'get_text' execution: "Next-gen browser and mobile automation test framework for Node.js"
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.getText() result: "Next-gen browser and mobile automation test framework for Node.js"
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/%3Awdc%3A1701166486913/text [39m[32m200[39m [90m247 ms - 77[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/context[39m
+[38;5;0m[HTTP][0m [90m{"name":"NATIVE_APP"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'setContext'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Attempting to set context to 'NATIVE_APP' from '21702.3'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.setContext() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/context [39m[32m200[39m [90m3 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Home"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Home","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element] with body: {"using":"accessibility id","value":"Home"}
+[38;5;144m[RemoteDebugger][0m Web Inspector garbage collected
+[38;5;144m[RemoteDebugger][0m Web Inspector garbage collected
+[38;5;144m[RemoteDebugger][0m Web Inspector garbage collected
+[38;5;144m[RemoteDebugger][0m Notified that new application 'PID:21718' has connected
+[38;5;144m[RemoteDebugger][0m Received page change notice for app 'PID:21702' but the listing has not changed. Ignoring.
+[38;5;144m[RemoteDebugger][0m Page changed: {
+[38;5;144m[RemoteDebugger][0m   "1": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 1,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "2": {
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 2,
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "JSContext",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeJavaScript"
+[38;5;144m[RemoteDebugger][0m   },
+[38;5;144m[RemoteDebugger][0m   "3": {
+[38;5;144m[RemoteDebugger][0m     "WIRTitleKey": "WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO",
+[38;5;144m[RemoteDebugger][0m     "WIRTypeKey": "WIRTypeWebPage",
+[38;5;144m[RemoteDebugger][0m     "WIRURLKey": "https://webdriver.io/",
+[38;5;144m[RemoteDebugger][0m     "WIRPageIdentifierKey": 3,
+[38;5;144m[RemoteDebugger][0m     "WIRConnectionIdentifierKey": "90cc3d9e-76b2-4903-a499-879fa8ec801f"
+[38;5;144m[RemoteDebugger][0m   }
+[38;5;144m[RemoteDebugger][0m }
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Remote debugger notified us of a new page listing: {"appIdKey":"21702","pageArray":[{"id":3,"title":"WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO","url":"https://webdriver.io/","isKey":true}]}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m We do not appear to have window set yet, ignoring
+[38;5;144m[RemoteDebugger][0m Web Inspector garbage collected
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":{"ELEMENT":"13000000-0000-0000-C654-000000000000","element-6066-11e4-a52e-4f735466cecf":"13000000-0000-0000-C654-000000000000"},"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13000000-0000-0000-C654-000000000000","ELEMENT":"13000000-0000-0000-C654-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element [39m[32m200[39m [90m4030 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/13000000-0000-0000-C654-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'proxyReqRes'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/13000000-0000-0000-C654-000000000000/click' to command name 'click'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/13000000-0000-0000-C654-000000000000/click] to [POST http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element/13000000-0000-0000-C654-000000000000/click] with body: {}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":null,"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Replacing sessionId FA76BE32-4421-427B-8C16-FA00969FDC89 with 5fa4a763-7a1f-48ec-bb78-8b1768189c45
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/13000000-0000-0000-C654-000000000000/click [39m[32m200[39m [90m3176 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@name=\"WEBDRIVER\"]"}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@name=\"WEBDRIVER\"]","5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Waiting up to 0 ms for condition
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/element' to command name 'findElement'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element] with body: {"using":"xpath","value":"//*[@name=\"WEBDRIVER\"]"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":{"ELEMENT":"21000000-0000-0000-C654-000000000000","element-6066-11e4-a52e-4f735466cecf":"21000000-0000-0000-C654-000000000000"},"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"21000000-0000-0000-C654-000000000000","ELEMENT":"21000000-0000-0000-C654-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element [39m[32m200[39m [90m396 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/21000000-0000-0000-C654-000000000000/displayed[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Executing command 'proxyReqRes'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/21000000-0000-0000-C654-000000000000/displayed' to command name 'elementDisplayed'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/21000000-0000-0000-C654-000000000000/displayed] to [GET http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89/element/21000000-0000-0000-C654-000000000000/displayed] with no body
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":true,"sessionId":"FA76BE32-4421-427B-8C16-FA00969FDC89"}
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Replacing sessionId FA76BE32-4421-427B-8C16-FA00969FDC89 with 5fa4a763-7a1f-48ec-bb78-8b1768189c45
+[38;5;0m[HTTP][0m [37m<-- GET /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45/element/21000000-0000-0000-C654-000000000000/displayed [39m[32m200[39m [90m53 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Calling AppiumDriver.deleteSession() with args: ["5fa4a763-7a1f-48ec-bb78-8b1768189c45"]
+[38;5;16m[AppiumDriver@df64][0m Event 'quitSessionRequested' logged at 1701166495251 (10:14:55 GMT+0000 (Greenwich Mean Time))
+[38;5;16m[AppiumDriver@df64][0m Removing session 5fa4a763-7a1f-48ec-bb78-8b1768189c45 from our master session list
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Matched '/session/5fa4a763-7a1f-48ec-bb78-8b1768189c45' to command name 'deleteSession'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Proxying [DELETE /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45] to [DELETE http://127.0.0.1:8100/session/FA76BE32-4421-427B-8C16-FA00969FDC89] with no body
+[38;5;144m[RemoteDebugger][0m Application 'PID:21702' disconnected. Removing from app dictionary.
+[38;5;144m[RemoteDebugger][0m Current app is 'PID:21702'
+[38;5;144m[RemoteDebugger][0m No longer have app id. Attempting to find new one.
+[38;5;144m[RemoteDebugger][0m Application 'PID:21718' disconnected. Removing from app dictionary.
+[38;5;144m[RemoteDebugger][0m Current app is 'undefined'
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Got response with status 200: {"value":null,"sessionId":null}
+[38;5;112m[DevCon Factory][0m Releasing connections for 721549D0-039A-4368-B405-7BBE019F75A0 device on any port number
+[38;5;112m[DevCon Factory][0m Found cached connections to release: ["721549D0-039A-4368-B405-7BBE019F75A0:8100"]
+[38;5;112m[DevCon Factory][0m Cached connections count: 0
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;48m[XCUITestDriver@29a3 (5fa4a763)][0m Found a remote debugger session. Removing...
+[38;5;144m[RemoteDebugger][0m Disconnecting from remote debugger
+[38;5;144m[RemoteDebugger][0m Cleaning up listeners
+[38;5;96m[IOSSimulatorLog][0m Stopping iOS log capture
+[38;5;16m[AppiumDriver@df64][0m Event 'quitSessionFinished' logged at 1701166496326 (10:14:56 GMT+0000 (Greenwich Mean Time))
+[38;5;16m[AppiumDriver@df64][0m Received response: null
+[38;5;16m[AppiumDriver@df64][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@df64][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/5fa4a763-7a1f-48ec-bb78-8b1768189c45 [39m[32m200[39m [90m1077 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[38;5;16m[AppiumDriver@df64][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
